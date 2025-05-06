@@ -4,3 +4,5 @@ k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
+# 指定镜像架构为 ARM64，再指定阿里云镜像仓库地址
+--platform=linux/arm64 registry.cn-hangzhou.aliyuncs.com/ultralytics/ultralytics:latest-jetson-jetpack4
